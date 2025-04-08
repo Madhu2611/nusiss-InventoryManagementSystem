@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="178dp"
+                android:layout_height="56dp"
+                android:text="@string/request_list"
+                android:textSize="@dimen/font_size_medium" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1">
+
+    </ListView>
+    </LinearLayout>
+

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Logic University</string>
+    <string name="request_id">Request ID:</string>
+    <string name="selectEmployee">Select Employee: </string>
+    <string name="request_list">Request Lists</string>
+    <string name="approveBTN">Approve</string>
+    <string name="rejectBTN">Reject</string>
+    <string name="customdialogtitle">Please Enter Your Remarks</string>
+    <string name="cancelBTN">Cancel</string>
+    <string name="okBTN">OK</string>
+    <string name="enterName">Enter Name</string>
+    <string name="checkNameBTNtext">Check Name</string>
+
+    <string name="cidlabel">Category ID: </string>
+    <string name="lidlabel">Location: </string>
+    <string name="itemidlabel">Item No: </string>
+    <string name="descidlabel">Description: </string>
+    <string name="balidlabel">Balance: </string>
+    <string name="poidlabel">PO ID: </string>
+    <string name="odidlabel">Order Date: </string>
+    <string name="ddidlabel">Delivery Date: </string>
+    <string name="savepoeditlabel">Save </string>
+    <string name="cancelpoeditlabel">Cancel </string>
+    <string name="uomidlabel">UoM </string>
+    <string name="qtyidlabel">Quantity </string>
+    <string name="postatusidlabel">Update PO Status to "Closed" </string>
+    <string name="saveidlabel">PO Status set to "Closed" </string>
+    <string name="noidlabel">Action Cancelled </string>
+    <string name="ponoidlabel">Purchase Order ID </string>
+
+    <string name="titlelabel">Stock Adjustment </string>
+    <string name="categorylabel">Category: </string>
+    <string name="descriptionlabel">Description: </string>
+    <string name="quantitylabel4">Quantity: </string>
+    <string name="datelabel">Date: </string>
+    <string name="remarklabel">Reason:</string>
+    <string name="cancelbutton">Cancel</string>
+    <string name="submitbutton">Submit</string>
+    <string name="Issue">Issue </string>
+    <string name="desclabel">Description: </string>
+    <string name="amountlabel">Total Amount: </string>
+    <string name="NotifyManager">Notify Manager </string>
+    <array name="advreason">
+        <item>Damaged</item>
+        <item>Missing</item>
+        <item>Free Of Charge</item>
+        <item>Wrong Input</item>
+    </array>
+</resources>

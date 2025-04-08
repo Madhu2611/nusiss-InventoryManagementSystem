@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adjustmentVoucher.Activity_CreateAdjustmentVoucher">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item" />
+
+    <Spinner
+        android:id="@+id/spinnerInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity" />
+
+    <EditText
+        android:id="@+id/editTextAdjQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reason" />
+
+    <RadioGroup
+        android:id="@+id/radioReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonReason_Damaged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Damaged" />
+
+        <RadioButton
+            android:id="@+id/radioButtonReason_Missing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Missing" />
+
+        <RadioButton
+            android:id="@+id/radioButtonReason_FreeOfCharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Of Charge" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_CreateAdjSubmit"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAlignment="center" />
+
+</LinearLayout>

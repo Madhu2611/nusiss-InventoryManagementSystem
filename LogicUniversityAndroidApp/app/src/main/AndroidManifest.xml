@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.he016.logicuniversityandroidapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/security_config"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!--        <activity
+            android:name=".retrievalactivity.RetrievalListActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".retrievalactivity.RetrievalDetailActivity"
+            android:windowSoftInputMode="stateHidden">
+        </activity>-->
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".landingActivity.DRLandingActivity" />
+        <activity android:name=".landingActivity.DHLandingActivity" />
+        <activity android:name=".landingActivity.StaffLandingActivity"/>
+        <activity android:name=".landingActivity.SCLandingActivity"/>
+        <activity android:name=".landingActivity.SMSSLandingActivity"/>
+
+        <activity android:name=".adjustmentVoucher.Activity_CreateAdjustmentVoucher"/>
+        <activity android:name=".adjustmentVoucher.ListOfMonthlyAdjustmentActivity"/>
+        <activity android:name=".adjustmentVoucher.MonthlyAdjustmentActivity"/>
+
+        <activity android:name=".approveRejectActivity.ApproveRejectActivity" />
+        <activity android:name=".approveRejectActivity.ListOfApproveRejectRequestsActivity" />
+
+        <activity android:name=".collectionPointActivity.ChangeDRCollectionPointActivity"/>
+        <activity android:name=".collectionPointActivity.ChangeCollectionPointActivity"/>
+        <activity android:name=".collectionPointActivity.ListDRNamesActivity"/>
+
+        <activity android:name=".disbursementList.DisbursementDetailActivity"/>
+        <activity android:name=".disbursementList.DisbursementActivity"/>
+
+        <activity android:name=".purchaseOrder.EditPOitemActivity"/>
+        <activity android:name=".purchaseOrder.ListOfSentPOActivity"/>
+        <activity android:name=".purchaseOrder.ViewPODetailsActivity"/>
+
+        <activity android:name=".requestActivity.ViewRequestDetailActivity" />
+        <activity android:name=".requestActivity.EditRequestDetailActivity" />
+        <activity android:name=".requestActivity.ListOfItemsActivity" />
+        <activity android:name=".requestActivity.AddRequestDetailActivity" />
+        <activity android:name=".requestActivity.ListofViewRequestsActivity" />
+
+        <activity android:name=".retrieval.RetrievalDetailActivity"/>
+        <activity android:name=".retrieval.RetrievalListActivity"/>
+
+        <activity android:name=".stockCard.ListOfCategoryActivity"/>
+        <activity android:name=".stockCard.ListOfInventoryItemsActivity"/>
+
+    </application>
+
+</manifest>
